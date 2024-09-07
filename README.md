@@ -1,6 +1,6 @@
 # Basic-Movie-Review-Site-by-Django
-A basic website created by Python Django.  
-Python Django ile oluşturulmuş basit bir web sitesi.
+A basic website created by Python Django and Bootstrap.  
+Python Django ve Bootstrap ile oluşturulmuş basit bir web sitesi.
 
 # Kodu Çalıştırabilmek için Gerekli Adımlar (TR) :
 * 1-) Django'yu yüklemek.  
