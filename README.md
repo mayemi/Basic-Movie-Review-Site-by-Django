@@ -15,6 +15,9 @@ print(get_random_secret_key())
 -Windows: python manage.py runserver  
 -Linux/macOS: python3 manage.py runserver
 * 5-) Terminalde çıkan linke gidin. Ve artık projeniz çalışıyor!
+* NOT: Admin paneli için:    
+  Username: admin  
+  Password: admin  
 
 # Steps to Run the Code (EN) :  
 * 1-) Install Django.  
@@ -29,3 +32,6 @@ print(get_random_secret_key())
 Windows: python manage.py runserver  
 Linux/macOS: python3 manage.py runserver
 * 5-) Go to the link displayed in the terminal. Your project should now be running!
+* * NOTE: For the admin panel:    
+  Username: admin  
+  Password: admin  
