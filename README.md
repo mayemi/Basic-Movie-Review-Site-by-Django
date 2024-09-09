@@ -10,7 +10,9 @@ Python Django ve Bootstrap ile oluşturulmuş basit bir web sitesi.
 * 3-) settings.py dosyasındaki SECRET_KEY kısmını güvenlik amacıyla sildim. O kısmı kendiniz doldurmalısınız. Doldurmak için ise projenize şu kodları ekleyip çalıştırın Secret key'i elde ettikten sonra kodları temizleyebilirsiniz:
    
 from django.core.management.utils import get_random_secret_key  
-print(get_random_secret_key())
+print(get_random_secret_key())  
+tests.py dosyasının içerisine yapıştırıp, sağ üstten çalıştırıp anahtarı terminalden elde edebilirsiniz.  
+
 * 4-) Terminal kısmına şu kodu yazın:  
 -Windows: python manage.py runserver  
 -Linux/macOS: python3 manage.py runserver
@@ -27,7 +29,8 @@ print(get_random_secret_key())
 * 3-)  I removed the SECRET_KEY part in the settings.py file for security reasons. You need to fill it in yourself. To do this, add the following code to your project and run it to obtain the secret key. After obtaining the key, you can remove the code:
   
 from django.core.management.utils import get_random_secret_key  
-print(get_random_secret_key())
+print(get_random_secret_key())  
+You can paste these codes into tests.py, run it and get your key.    
 * 4-) In the terminal, run the following command:  
 Windows: python manage.py runserver  
 Linux/macOS: python3 manage.py runserver
